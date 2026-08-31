@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan EMI Calc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <center>
+        
+
+        <label for="model" class="para">Choose a model:</label> <br>
+        <select name="model" id="model" class="selectS">
+            <option value="Dlx">Deluxe</option>
+            <option value="Dura">Duramax Plus</option>
+            <option value="Dlx Leader">Deluxe Leader Ed</option>
+            <option value="EVMax">EV Max</option>
+            <option value="KargoC">Kargo CNG</option>
+            <option value="KargoE">Kargo EV</option>
+
+            
+
+        </select><br/>
+          <p>Enter Downpayment</p><br/>
+          <input type="number" id="downpayment" class="css-input"><br/>
+          <p>Enter Tenure in months</p><br/>
+          <input type="number" id="tenure" class="css-input"><br/>
+          
+          <button type="button" onclick="calculateEMI();" class="btn">Calculate</button>
+          <br/><br/>
+
+          <p>Vehicle Price</p><br/>
+          <p id="vehprice" class="output"></p><br/>
+          <p>Installments</p><br/>
+          <p id="installments" class="output"></p><br/>
+          <p>Vehicle price with interest</p><br/>
+          <p id="price" class="output"></p><br/>
+          <p>Interest</p><br/>
+          <p id="interest" class="output"></p><br/>
+      </center>
+  </body>
+  <script src="index.js"></script>
+</html>
+
