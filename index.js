@@ -35,7 +35,7 @@ function calculateEMI(){
 
     LA=(vehiclePrice-DP+12000)
     var intrt=25
-    if (DP>(0.20*vehiclePrice)){
+    if (DP>(0.25*vehiclePrice)){
       intrt=22
     }
     console.log(LA)
