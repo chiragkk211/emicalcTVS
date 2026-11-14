@@ -11,20 +11,20 @@ function calculateEMI(){
     
 
     if (model=="Dlx"){
-      vehiclePrice=265965
+      vehiclePrice=272131
     }
     if(model=="Dura"){
-      vehiclePrice=273935
+      vehiclePrice=281151
     }
     if(model=="Dlx Leader"){
-        vehiclePrice=280165
+        vehiclePrice=287331
       }
 
     if (model=="EVMax"){
-        vehiclePrice=356816
+        vehiclePrice=368692
       }  
     if (model=="KargoC"){
-        vehiclePrice=315498
+        vehiclePrice=317848
       }  
     if (model=="KargoE"){
         vehiclePrice=428377
